@@ -20,7 +20,7 @@ Run the code the observe the ascii values of different characters.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T18:27:03.944Z  
+**Submitted:** 2026-08-01T18:26:22.221Z  
 
 ```c_cpp
 #include <bits/stdc++.h>

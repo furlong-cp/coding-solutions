@@ -23,7 +23,7 @@ Learn Coding on CodeChef
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T16:47:57.082Z  
+**Submitted:** 2026-08-01T16:48:02.411Z  
 
 ```c_cpp
 #include <iostream>

@@ -4,51 +4,52 @@
 
 ## Problem
 
-### Printing text
+### Arithmetic Operations
 
 Listen
 
-In the last lesson, we saw how to print a number (using `cout`).
+We can also perform mathematical operations (like addition, subtraction etc) with  **`cout`**.
 
-To print a number we write this:
+These use the familiar symbols of:
 
-```
-cout << 10;
+- $+$ for addition
+- $-$ for subtraction
+- $*$ for multiplication
+- $/$ for division
 
-```
-
-But to output a text, we do this
-
-```
-cout << "I love C++";
+To add two numbers we do this:
 
 ```
+cout << 21 + 40;
 
-This will print  **I love C++**  to the screen. Notice how  **I love C++**  is written inside "" (double quotes). You always have to enclose your text in double quotes ("") when printing.
+```
+
+The above line of code will output: 61
 
 ### Task
 
-In this problem, we want you to output  **"I love C++"**. For that, you have to edit the code present in editor. The editor has some __ (underscores). Your task is to remove underscores and write "I love C++", to solve the problem.
+Add 21 and 40 in the code and print the result.
 
-We add underscores in editor so that you know which portion of code to edit.
+### Comments
 
-Click on Submit after you have edited the code in editor.
+Notice that on the editor on the right, the instructions appear in gray color.
+This is because they are comments and don't affect the code.
+The way we write comments is by adding "//" at the start of a line.
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T16:43:28.819Z  
+**Submitted:** 2026-08-01T16:43:19.881Z  
 
 ```c_cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-
-  // Replace the _ (underscores) with the correct value
-  cout << "I love C++";
+  // Replace the __ with 40
+  cout <<  21 + 40 ; 
 
 }
 ```

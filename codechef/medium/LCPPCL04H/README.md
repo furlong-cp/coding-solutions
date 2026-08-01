@@ -35,7 +35,7 @@ Observe the code in the code editor to see how we can calculate this difference 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T18:30:00.647Z  
+**Submitted:** 2026-08-01T18:33:24.102Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -43,7 +43,7 @@ using namespace std;
 
 int main() {
     char ch = 'D';
-    char lower_case = char(ch + ('a'-'A'));
+    char lower_case = char(ch + 32);
     cout<<lower_case<<endl;
 }
 

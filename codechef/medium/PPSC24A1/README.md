@@ -76,7 +76,7 @@ Output the sum of 21 and 40 using arithmetic operators.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T18:34:35.228Z  
+**Submitted:** 2026-08-01T18:35:07.338Z  
 
 ```c_cpp
 #include <bits/stdc++.h>

@@ -36,7 +36,7 @@ Write a program to output 7 and 3 on two lines, using a single cout statement.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T16:55:28.040Z  
+**Submitted:** 2026-08-01T16:55:33.382Z  
 
 ```c_cpp
 #include <iostream>

@@ -1,0 +1,7 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    char name = 'D';
+    cout<<((name) == 65 || (name) == 67);
+}

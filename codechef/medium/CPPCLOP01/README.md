@@ -43,7 +43,7 @@ You are given two variables `height1` and `height2` - use relational operators t
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T18:42:49.082Z  
+**Submitted:** 2026-08-01T18:43:11.019Z  
 
 ```c_cpp
 #include <bits/stdc++.h>

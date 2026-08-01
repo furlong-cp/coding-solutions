@@ -18,7 +18,7 @@ Which of the following expressions is equivalent to the following code snippet?
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T18:46:57.601Z  
+**Submitted:** 2026-08-01T18:47:16.413Z  
 
 ```cpp
 #include <bits/stdc++.h>

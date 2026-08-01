@@ -36,7 +36,7 @@ Write a program which prints  **"7 and 3"**, in a single cout statement.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T16:57:31.639Z  
+**Submitted:** 2026-08-01T16:57:42.095Z  
 
 ```c_cpp
 #include <iostream>
@@ -44,7 +44,7 @@ using namespace std;
 
 int main() {
 
-  cout << 3 + 4 << " and " << 1 + 2;
+  cout << 3 + 4 << " and " << 4-1;
 
   
 }

@@ -2,9 +2,9 @@
 using namespace std;
 
 int main() {
-    // Declare a variable
-    int number =19;
-    
-    // Print the variable
-    cout << number ;
+    // Fix the variable name to make the code work
+
+    int number = 8;
+    cout<<number<<endl;
+
 }

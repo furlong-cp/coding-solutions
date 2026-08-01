@@ -2,7 +2,9 @@
 using namespace std;
 
 int main() {
-    // Replace __ with 25
-    int age = 25;
-    cout << age;
+    // Declare a variable
+    int number =19;
+    
+    // Print the variable
+    cout << number ;
 }

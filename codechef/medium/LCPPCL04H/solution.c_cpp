@@ -3,6 +3,6 @@ using namespace std;
 
 int main() {
     char ch = 'D';
-    char lower_case = char(ch + ('a'-'A'));
+    char lower_case = char(ch + 32);
     cout<<lower_case<<endl;
 }

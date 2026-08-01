@@ -19,7 +19,7 @@ You are given a lower case character ch. Output it in upper case.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T18:33:47.349Z  
+**Submitted:** 2026-08-01T18:34:05.222Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -27,7 +27,7 @@ using namespace std;
 
 int main() {
     char ch = 'r';
-    char upper_case = char(ch -32);
+    char upper_case = char(ch + ('A'-'a'));
     cout<<upper_case<<endl;
 }
 

@@ -2,8 +2,7 @@
 using namespace std;
 
 int main() {
-
-  // Replace the _ (underscores) with the correct value
-  cout << "I love C++";
+  // Replace the __ with 40
+  cout <<  21 + 40 ; 
 
 }

@@ -64,28 +64,28 @@ YES
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T13:33:44.457Z  
+**Submitted:** 2026-08-01T13:33:52.480Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
+
 using namespace std;
 
 int main() {
-	// your code goes here
-	int t;
-	cin>>t;
-	while (t--){
-	    double a,b,c;
-	    cin >>a>>b>>c;
-	    if ((a+b)/2.0 > c){
-	        cout << "YES\n";
-	    }
-	    else {
-	        cout << "NO\n";
-	    }
-	}
+    // your code goes here
+    int t;
+    cin >> t;
+    while (t--) {
+        double a, b, c;
+        cin >> a >> b >> c;
+        if ((a + b) / 2.0 > c) {
+            cout << "YES\n";
+        }
+        else {
+            cout << "NO\n";
+        }
+    }
 }
-
 ```
 
 ---

@@ -27,14 +27,14 @@ This will cause an overflow and the value inside the variable will not be the nu
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T18:18:13.420Z  
+**Submitted:** 2026-08-01T18:18:19.402Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    long long num = 123456789012345;
+    long long num = 123456789012345LL;
     cout<<num<<endl;
 }
 

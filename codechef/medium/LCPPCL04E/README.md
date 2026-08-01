@@ -4,29 +4,41 @@
 
 ## Problem
 
-_Description not available._
+### Understanding integer to boolean conversion
+
+Listen
+
+In the previous problem we observed how an integer $156$ when converted to boolean gave true.
+
+Let's understand how the boolean value is determined when converted from an integer.
+
+To understand this, we just need to understand one simple rule -  **0 is false, and anything other than 0 is true**.
+
+It doesn't matter if it is a negative number or a decimal number. Everything other than $0$ will be converted to true, which is outputted as $1$. Only $0$ is converted to false which is outputted as $0$.
+
+You can observe the same upon running the code given in the editor.
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T18:24:08.747Z  
+**Submitted:** 2026-08-01T18:24:59.133Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int main() {
-    cout << "float to integer - 17.84 changes to -> " << int(17.84) << endl;
-    cout << "integer to float - 2 changes to -> " << float(2) << endl;
-    cout << "integer to char - 68 changes to -> " << char(68) << endl;
-    cout << "char to integer - C changes to -> " << int('C') << endl;
-    cout << "integer to boolean - 158 changes to -> " << bool(156) << endl;
-    cout << "boolean to integer - false changes to -> " << int(false) << endl;
-    return 0;
+    cout<<bool(0)<<endl;
+    cout<<bool(1)<<endl;
+    cout<<bool(720)<<endl;
+    cout<<bool(-83)<<endl;
+    cout<<bool(0.0000003)<<endl;
+    
+  return 0;
 }
+
 ```
 
 ---

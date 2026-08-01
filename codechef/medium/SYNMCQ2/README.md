@@ -13,7 +13,7 @@ Which line of code will output the sum of $7$ and $19?$
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T16:43:43.786Z  
+**Submitted:** 2026-08-01T16:43:46.464Z  
 
 ```cpp
 #include <iostream>

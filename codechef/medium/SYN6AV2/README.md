@@ -36,18 +36,18 @@ Write a program to output 7 and 3 on two lines, using a single cout statement.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T16:55:33.382Z  
+**Submitted:** 2026-08-01T16:55:41.427Z  
 
 ```c_cpp
 #include <iostream>
+
 using namespace std;
 
 int main() {
     // Print 7 and 3 on two lines
     cout << 7 << endl << 3;
-    
-}
 
+}
 ```
 
 ---

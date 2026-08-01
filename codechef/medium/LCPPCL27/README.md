@@ -4,35 +4,61 @@
 
 ## Problem
 
-### Variables
+### Declaring a variable
 
 Listen
 
-A  **variable**  is like a labeled box where you can store data. Imagine you have a box labeled "age" and you put the number 25 in it. In C++, you would do this by writing `int age = 25;`. This means you're storing the number 25 in the variable named `age`.
+When we declare a variable, we should also specify what type of variable it is. This is known as data type, basically meaning what type of data we are going to store in a variable.
 
- **int**  denotes that we will be storing integers (numbers) in this variable.
+Here are all the major data types and what they store in C++:
 
-Here's the cool part: whenever you use `age` in your code, C++ will remember it is 25. For example, if you write `cout << age`, C++ will show 25.
+Data Type	Description	Range(of values they can store)	Size(in Bytes)
+int	Stores integers	-2,147,483,648 to 2,147,483,647	4
+long long	Stores large integers	-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807	8
+float	Stores decimal numbers	1.2e-38 to 3.4e38	4
+double	Stores large decimal numbers	2.3e-308 to 1.7e308	8
+char	Stores single character	-128 to 127	1
+bool	Stores `true` or `false`	`true` or `false`	1
+
+ **Example declarations:** 
+
+```
+   int num = 100000;
+   long long large_num = 100000000000000;
+   float pi = 3.14;
+   double euler_number = 2.718281828459045;
+   char c = 'A';
+   bool check = true;
+
+```
+
+ **Note:**  In computer memory, a `bit` is the smallest unit of data, representing a binary digit with values $0$ or $1$, whereas a `byte` consists of $8$ bits and is used to represent and store data in memory.
 
 ### Task
-- Create a variable in editor named age and assign the value 25 to it.
-- Print the value of age variable using print statement.
+
+Write a program which does the following:
+
+- Create an integer variable named number.
+- Assign the value 19 to number.
+- Output the value of number.
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T17:08:40.646Z  
+**Submitted:** 2026-08-01T17:09:17.410Z  
 
 ```c_cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-    // Replace __ with 25
-    int age = 25;
-    cout << age;
+    // Declare a variable
+    int number =19;
+    
+    // Print the variable
+    cout << number ;
 }
 
 ```

@@ -4,25 +4,53 @@
 
 ## Problem
 
-_Description not available._
+### Cost of painting
+
+Listen
+
+Write a program which does the following
+
+- Find the area of a square of side $14cm.$
+- Also, find the cost of painting the square if the paint costs is $$7cm/sq.$
+- Initialise the following variables in your program and use them in the computation s to store the length of side the square area to store the area of the square cost to store the cost of painting
+- Output area and cost to the console on separate lines.
+- Note: Include the character "$" with the cost without any space
+### Sample 1:
+Input
+Output
+
+```
+ 
+```
+
+```
+196
+$1372
+```
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T17:15:52.036Z  
+**Submitted:** 2026-08-01T17:18:19.124Z  
 
 ```c_cpp
 #include <iostream>
+
 using namespace std;
 
 int main() {
-    
-    bool x = true;
-    bool y = false;
-    cout << x << endl;    //x and y need to be cout on separate lines
-    cout << y;  
+    int s = 14;
+
+    // add variable area here
+    int area = s * s;
+
+
+    int cost = 7 * area;
+
+    cout << area << endl;
+    cout << "$" << cost;
 }
 ```
 

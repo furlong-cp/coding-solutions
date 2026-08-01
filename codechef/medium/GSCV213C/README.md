@@ -42,7 +42,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T16:40:16.985Z  
+**Submitted:** 2026-08-01T16:40:23.420Z  
 
 ```c_cpp
 // Change the 'custom inputs' below and click 'run'

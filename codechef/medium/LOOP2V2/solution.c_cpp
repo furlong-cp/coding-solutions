@@ -5,6 +5,7 @@ int main() {
 
   int num;
   cin >> num; 
+  
   while (num--){
       cout << 9-num << endl;
   }

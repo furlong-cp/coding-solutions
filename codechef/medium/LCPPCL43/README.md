@@ -40,7 +40,7 @@ cout << x + " " + y;
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T04:57:49.290Z  
+**Submitted:** 2026-08-02T04:58:08.208Z  
 
 ```c_cpp
 // update the code  to print Hello World
@@ -50,7 +50,7 @@ using namespace std;
 int main () {
     string x = "Hello";
     string y = "World";
-    cout<< x << " " << y;
+    cout<< x + " " + y;
   
 }
 

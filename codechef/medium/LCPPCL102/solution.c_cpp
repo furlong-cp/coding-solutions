@@ -2,18 +2,9 @@
 using namespace std;
 
 int main() {
-    int a,b,c,d;
-    cin>>a>>b>>c>>d;
-    float p = a - c; 
-    float q = b - d; 
-    if(p<q){
-       cout<<"First"<<endl;
-    }
-    else if(p>q){
-       cout<<"Second"<<endl;
-    }
-    else if(p==q) {
-       cout<<"Any"<<endl;
-    }
-    
+	// your code goes here
+    int k, x;
+    cin >> k >> x;
+    cout<<k-x<<'\n';
+	
 }

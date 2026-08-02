@@ -7,6 +7,6 @@ int main() {
   // Remove the underscores and complete the code
   while (a < 7 ) {
     cout << a << endl;
-    a += 1;
+    a++;
   }
 }

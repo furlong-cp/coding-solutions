@@ -31,7 +31,7 @@ Write a program to print numbers from $10$ to $24$ in the increments of $2$ on s
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T08:05:47.329Z  
+**Submitted:** 2026-08-02T08:06:01.655Z  
 
 ```c_cpp
 #include <bits/stdc++.h>

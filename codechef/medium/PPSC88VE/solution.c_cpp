@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    int count = 0;
+    while (n > 0) {
+        //Write statement to count the digit
+        n /=10;
+
+        //Write statement to update n
+        count++;
+    }
+    cout << count << endl;
+}

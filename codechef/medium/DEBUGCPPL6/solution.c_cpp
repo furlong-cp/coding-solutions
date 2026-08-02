@@ -1,18 +1,17 @@
-// Debug the code to solve this problem
-
+//uncomment the if condition
 #include <iostream>
-using namespace std;
 
+using namespace std;
 int main()
 {
-    int n;
-    n = 5;
-    if (n % 2 == 1)
-    {
-        cout << "Odd";
-    }
-    else
-    {
-        cout << "Even";
-    }
+    int a,b;
+    cin>>a>>b;
+    
+     if(b==0) {
+       cout<<"infinity\n";
+     }
+    else {
+        cout<<a/b<<"\n";
+     }
+    
 }

@@ -39,7 +39,7 @@ Write a program which does the following
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T04:51:19.250Z  
+**Submitted:** 2026-08-02T04:54:51.341Z  
 
 ```c_cpp
 #include <bits/stdc++.h>

@@ -60,16 +60,15 @@ Your number is: 25
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T05:11:39.236Z  
+**Submitted:** 2026-08-02T05:11:57.896Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
-using namespace std;
 
 int main() {
     int a;
-    cin >> a;
-    cout << "Your number is: " << a;
+    std::cin >> a;
+    std::cout << "Your number is: " << a;
 }
 ```
 

@@ -3,11 +3,12 @@ using namespace std;
 
 int main() {
 
-  int num;
-  cin >> num; 
-  int a=0;
-  while (a<num){
-      cout << a << endl;
-      a++;
+  int i = 0;
+  do{
+    cout << i << endl;
+    i = i+1;
   }
+  while(i < 6);
+
+  
 }

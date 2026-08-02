@@ -43,7 +43,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T07:38:43.070Z  
+**Submitted:** 2026-08-02T07:38:54.550Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -53,6 +53,7 @@ int main() {
 
   int num;
   cin >> num; 
+  
   while (num--){
       cout << 9-num << endl;
   }

@@ -33,7 +33,7 @@ Write a program which does the following:
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T07:26:26.242Z  
+**Submitted:** 2026-08-02T07:26:34.066Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -45,7 +45,7 @@ int main() {
   // Remove the underscores and complete the code
   while (a < 7 ) {
     cout << a << endl;
-    a += 1;
+    a++;
   }
 }
 

@@ -4,28 +4,49 @@
 
 ## Problem
 
-### Calculator
+### Taking Multiple User Inputs
 
-Complete the given program to create a simple calculator that performs addition and subtraction.
+Listen
 
-#### Steps:
-- Declare 2 integer variables a and b.
-- Initialise the variables a and b with the two user inputs.
-- Declare an integer variable sum - and store the value of addition of a and b to it.
-- Declare an integer variable diff - and store the value of subtraction of a and b to it.
-- Print sum and diff to the console on separate lines with the same message as given in sample output.
+Similar to how we give multiple outputs, we can also take multiple inputs using the extraction operator(>>).
+
+```
+int a, b;
+cin >> a >> b;
+cout << b << " " << a << endl;
+
+```
+
+In the above code we declare two variables $a$ and $b$ and take input using cin and store the first input in $a$ and the second input in $b$. Thus, for the input:
+
+```
+2 3
+
+```
+
+the output will be:
+
+```
+3 2
+
+```
+
+Notice that you don't need to specify when to take the next input after a space. cin automatically stops taking input when it encounters a whitespace (like a space, tab, or newline) and then moves on to take the next input after the whitespace.
+
+### Task
+
+Write a program to take three inputs $a$, $b$ and $c$ and output their sum.
+
 ### Sample 1:
 Input
 Output
 
 ```
-35
-23
+2 4 3
 ```
 
 ```
-Sum is: 58
-Difference is: 12
+9
 ```
 
 ### Sample 2:
@@ -33,13 +54,11 @@ Input
 Output
 
 ```
-8
-2
+7 1 2
 ```
 
 ```
-Sum is: 10
-Difference is: 6
+10
 ```
 
 ## Solution
@@ -47,25 +66,22 @@ Difference is: 6
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-02T05:14:47.511Z  
+**Submitted:** 2026-08-02T05:13:57.193Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
+
 using namespace std;
 
 int main() {
-    // Complete the code as per given instructions on the left
-    int a, b;
-    int sum;
-    int diff;
-    cin>>a>>b;
-    sum = a+b;
-    diff = a-b;
-     
-    cout << "Sum is: " << sum << endl;
-    cout << "Difference is: "<< diff << endl;
-}
+    // your code goes here
+    int a, b, c, sum = 0;
+    cin >> a >> b >> c;
+    sum = a + b + c;
+    cout << sum;
 
+
+}
 ```
 
 ---

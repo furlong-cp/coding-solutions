@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    if (n < 2) { // special cases
+        cout << "No";
+        return 0;
+    }
+    int i = 2;
+    bool isPrime = true;
+    while (i < n) {
+        // check if n is divisible by current number
+        if (n % i == 0) {
+            // if n is divisble by current number, set isPrime to false
+            isPrime = false;
+        }
+        //update i
+        i++;
+    }
+    if (isPrime) {
+        cout << "Yes" << endl;
+    }
+    else {
+        cout << "No" << endl;
+    }
+}

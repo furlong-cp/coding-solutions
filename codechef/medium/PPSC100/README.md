@@ -4,54 +4,29 @@
 
 ## Problem
 
-### Nested loops best practices
+### Another Pattern Problem
 
 Listen
 
-Nested loop best practices are essential to ensure code readability and efficiency.
-Let's look at the code used to generate the right angled triangle.
+Go ahead and practice another problem.
 
-```
-#include <stdio.h>
-
-int main() {
-    int n;
-    scanf("%d", &n); // Input for the number of rows
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j <= i; j++) {
-            printf("* "); // Print star
-        }
-        printf("\n"); // Print newline after each row
-    }
-    return 0;
-}
-
-```
-
-#### Best Practices:
-- Clear Indentation: Properly indent nested loops to improve code readability. Indent each inner loop one level from its outer loop.
-- Avoid Unnecessary Nesting: Use nested loops only when needed.
-- Efficiency Considerations: For this simple pattern, efficiency is not a concern. However, if you're dealing with a large number of iterations, you might need to optimize the loops or consider alternative solutions.
-### Task
-
-Write a program to take a positive integer input  **N**  from console and print the square of stars of side length  **N**.
+Given an integer $N$ - print a number pattern of height $N$.
+Check the sample output given below.
 
 ### Sample 1:
 Input
 Output
 
 ```
-6
+5
 ```
 
 ```
- **   **   **  
- **  
- **  
- **  
- **  
- **   **   **  
-
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 
 ```
 
 ## Solution
@@ -59,29 +34,24 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-04T09:11:42.568Z  
+**Submitted:** 2026-08-04T09:19:18.763Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int main() {
-    int n;
-    cin >> n;
-
-    for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= n; j++) {
-            if (i == 1 || i == n || j == 1 || j == n) {
-                cout << "* ";
-            } else {
-                cout << "  ";
-            }
-        }
-        cout << endl;
-    }
-
+	// your code goes here
+	int n;
+	cin>>n;
+	for (int i = 1; i<=n;i++){
+	    for (int j=1; j<=i ; j++){
+	        cout << j << " ";
+	        }
+	   cout << endl;
+	}
 }
+
 ```
 
 ---

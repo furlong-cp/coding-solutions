@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int square(int t) {
+    int value1 = t * t;
+    return value1;
+}
+
+int half(int i) {
+    int value2 = i / 2;
+    return value2;
+}
+
+int main() {
+    int n;
+    cin >> n;
+    
+    int result1 = square(n);
+    int result2 = half(result1);
+    
+    cout << result2 << endl;
+    
+    
+}

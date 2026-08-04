@@ -36,7 +36,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-04T08:34:49.690Z  
+**Submitted:** 2026-08-04T08:37:43.271Z  
 
 ```c_cpp
 #include<bits/stdc++.h>
@@ -49,8 +49,9 @@ int main() {
     // Complete the code
     for (int i=0;i<n;i++){
         for (int j=0;j<n;j++){
-            cout << "*" << " " << endl ;
+            cout << "*" << " " ;
         }
+        cout << endl;
     }
     
 }

@@ -23,7 +23,7 @@ Proceed to the IDE to test out the syntax.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-04T10:01:11.954Z  
+**Submitted:** 2026-08-04T10:01:32.204Z  
 
 ```c_cpp
 #include <iostream>

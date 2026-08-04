@@ -13,7 +13,7 @@ What is the primary advantage of  **Call by Reference**  over  **Call by Value**
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-04T17:03:02.624Z  
+**Submitted:** 2026-08-04T17:03:06.219Z  
 
 ```cpp
 #include <iostream>

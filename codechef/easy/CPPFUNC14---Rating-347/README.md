@@ -69,7 +69,7 @@ The difference between these values is $1$.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-04T16:47:25.665Z  
+**Submitted:** 2026-08-04T16:47:29.057Z  
 
 ```c_cpp
 #include <iostream>

@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+void increment(int x) {
+    x++;
+    cout << "new value during function: " << x << endl;
+}
+
+int main() {
+    int num = 5;
+    increment(num);
+    cout << "num after function call: " << num << endl; // Output: num after function call: 5
+    return 0;
+}

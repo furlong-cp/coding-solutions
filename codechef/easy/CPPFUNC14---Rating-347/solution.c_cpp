@@ -1,25 +1,29 @@
 #include <iostream>
+#include <cstdlib> // for std::abs
 
 using namespace std;
 
-int square(int t) {
-    int value1 = t * t;
-    return value1;
+int multiple(int a, int b) {
+    return a * b;
 }
 
-int half(int i) {
-    int value2 = i / 2;
-    return value2;
+int total(int x, int y) {
+    return x + y;
+}
+
+int abs_diff(int a, int b) {
+    return abs(a - b);
 }
 
 int main() {
-    int n;
-    cin >> n;
+    int A, B;
+    cin >> A >> B;
     
-    int result1 = square(n);
-    int result2 = half(result1);
+    int C = multiple(A, B);
+    int D = total(A, B);
+    int E = abs_diff(C, D);
     
-    cout << result2 << endl;
+    cout << E << endl;
     
     
 }

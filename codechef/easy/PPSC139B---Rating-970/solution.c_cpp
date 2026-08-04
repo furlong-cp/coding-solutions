@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+void sum_difference(int *value1, int *value2) {
+    //Sum the values pointed by value1 and value2 
+    int temp = *value1 + *value2;
+    
+    //Calculate the absolute difference of the value pointed out by value1 and value2
+    // Store the result in the location pointed by value2.
+    *value2 = abs(*value2 - *value1);
+    // store the result of sum in the location pointed by value1.
+    *value1 = temp;
+}
+
+int main() {
+    int value1, value2;
+    // take twop inputs
+    cin >> value1 >> value2;
+    sum_difference(&value1, &value2);
+    
+    // Output the results
+    cout << value1 << endl;
+    cout << value2 << endl;
+    
+    return 0;
+}

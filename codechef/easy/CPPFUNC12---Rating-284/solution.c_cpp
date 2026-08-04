@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int total_score(int a, int b, int c) {
+    return (c - a);
+}
+
+int high_score(int a, int b, int c) {
+    return (c - a - b);
+}
+
+int main() {
+    int N, A, B;
+    cin >> N >> A >> B;
+
+    int result_1 = total_score(A, B, N);
+    int result_2 = high_score(A, B, N);
+
+    cout << result_1 << " " << result_2 << endl;
+
+    
+}

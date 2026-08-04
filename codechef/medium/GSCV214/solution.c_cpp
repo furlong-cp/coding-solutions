@@ -1,4 +1,4 @@
-//Update the '_' in the code below
+// Update the '_' in the code below
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -11,10 +11,10 @@ int main()
     //Run a loop to accept 't' inputs
     while (t--)
     {
-        string S, X;
-        cin >> S;
-        //Store the value of string S concatenated with itself to variable X
-        X = S + S;
-        cout << X << endl;
+        int N;
+        //accept 1 integer on the 1st line of each test case
+        cin>> N;
+        //output the negative integer - i.e. (-N)
+        cout << 0-N << endl;
     }
 }

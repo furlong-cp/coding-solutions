@@ -4,40 +4,17 @@
 
 ## Problem
 
-### String mirror - Double strings
-
-Listen
-
-Write a program in the IDE which does the following
-
-- Accepts the count of test cases - t - in the 1st line First line of each test case consists of a string S
-- You need to perform the following operation Create a variable X which contains the string S concatenated with the string S Output X for each test case
-### Sample 1:
-Input
-Output
-
-```
-3
-ab
-bc
-cd
-```
-
-```
-abab
-bcbc
-cdcd
-```
+_Description not available._
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-04T10:12:10.733Z  
+**Submitted:** 2026-08-04T10:11:11.560Z  
 
 ```c_cpp
-//Update the '_' in the code below
+// Update the '_' in the code below
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -50,11 +27,11 @@ int main()
     //Run a loop to accept 't' inputs
     while (t--)
     {
-        string S, X;
-        cin >> S;
-        //Store the value of string S concatenated with itself to variable X
-        X = S + S;
-        cout << X << endl;
+        int N;
+        //accept 1 integer on the 1st line of each test case
+        cin>> N;
+        //output the negative integer - i.e. (-N)
+        cout << 0-N << endl;
     }
 }
 ```

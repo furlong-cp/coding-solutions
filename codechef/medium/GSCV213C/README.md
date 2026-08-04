@@ -42,26 +42,10 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-01T16:40:23.420Z  
+**Submitted:** 2026-08-04T10:09:29.172Z  
 
 ```c_cpp
-// Change the 'custom inputs' below and click 'run'
-// Once you have run the code - click on 'submit'
-#include <bits/stdc++.h>
-
-using namespace std;
-
-int main()
-{
-    int t;
-    cin >> t;
-    while (t--)
-    {
-        int N;
-        cin >> N;
-        cout << N + 1 << endl;
-    }
-}
+Click on **Next** to proceed.
 ```
 
 ---

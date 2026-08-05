@@ -27,7 +27,7 @@ Write a program which does the following
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T15:38:34.916Z  
+**Submitted:** 2026-08-05T15:38:51.509Z  
 
 ```c_cpp
 #include <iostream>
@@ -36,7 +36,7 @@ using namespace std;
 int main() {
 
   cout << 7;
-  cout << "\n" ;
+  cout << endl ;
   cout << 3;
 
   return 0;

@@ -2,8 +2,11 @@
 using namespace std;
 
 int main() {
-    // Write your code here
-    int h = 5;
-    cout << 5*60 << endl << 5*60*60 ;
+    
+    // Declare and initialize temperature variable with 25.5
+    double t = 25.5;
+    cout << "Celsius - " << t << endl;  // Print the temperature in Celsius 
+    cout << "Kelvin - " << t + 273; // Print the temperature in Kelvin 
 
+    return 0;
 }

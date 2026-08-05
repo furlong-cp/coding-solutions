@@ -59,7 +59,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T15:12:52.008Z  
+**Submitted:** 2026-08-05T15:10:55.016Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -73,19 +73,8 @@ int main() {
     while (t--) {
         int a, b, c, d;
         cin >> a >> b >> c >> d;
-        int count = 0;
-        if (a+b == c+d) {
-            count +=1;
-        }
-        if (a-b == c+d){
-            count +=1;
-        }
-        if (count > 0){
-            cout << count << endl;
-        }
-        else {
-            cout << -1 << endl;
-        }
+        
+        
         
 
     }

@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-    string name;
-    cin >> name;
-    cout << name[7] << endl;
+    int one,two;
+    cin >> one >> two;
+    cout << one/two << endl;
     return 0;
 }

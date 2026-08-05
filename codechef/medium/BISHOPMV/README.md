@@ -59,7 +59,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T14:47:16.743Z  
+**Submitted:** 2026-08-05T14:54:28.919Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -72,7 +72,20 @@ int main() {
 	while(t--){
 	    int x1,y1,x2,y2;
 	    cin >> x1>>y1>>x2>>y2 ;
-	    
+	    int m = x1-x2;
+	    int n = y1-y2;
+	    if (abs(n)==abs(m)){
+	        cout << 1 << endl;
+	    }
+	    else if (m %n == 0){
+	        cout << abs(m/n) << endl;
+	    }
+	    else if (m+n == -1){
+	        cout << -1 << endl;
+	    }
+	    else {
+	        cout << -1 << endl ;
+	    }
 	}
 
 }

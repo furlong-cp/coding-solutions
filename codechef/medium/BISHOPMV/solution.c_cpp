@@ -9,19 +9,8 @@ int main() {
     while (t--) {
         int a, b, c, d;
         cin >> a >> b >> c >> d;
-        int count = 0;
-        if (a+b == c+d) {
-            count +=1;
-        }
-        if (a-b == c+d){
-            count +=1;
-        }
-        if (count > 0){
-            cout << count << endl;
-        }
-        else {
-            cout << -1 << endl;
-        }
+        
+        
         
 
     }

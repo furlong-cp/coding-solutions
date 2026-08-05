@@ -59,7 +59,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T15:05:27.646Z  
+**Submitted:** 2026-08-05T15:07:19.142Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -78,7 +78,7 @@ int main() {
         if (abs(x) == abs(y)) {
             cout << 1 << endl;
         }
-        else if (abs(y / x) > 0) {
+        else if (abs(y / x) > 0 && x!=0) {
             cout << abs(y / x) << endl;
         }
         else {

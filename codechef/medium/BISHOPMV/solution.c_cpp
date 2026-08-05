@@ -13,7 +13,7 @@ int main() {
 	    if (abs(n)==abs(m)){
 	        cout << 1 << endl;
 	    }
-	    else if (m %n == 0){
+	    else if (m /n > 0){
 	        cout << abs(m/n) << endl;
 	    }
 	    else if (m+n == -1){

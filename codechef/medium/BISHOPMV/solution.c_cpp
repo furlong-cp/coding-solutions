@@ -9,9 +9,17 @@ int main() {
     while (t--) {
         int a, b, c, d;
         cin >> a >> b >> c >> d;
-        
-        
-        
+        int x = c - a;
+        int y = d - b;
+        if (abs(x) == abs(y)) {
+            cout << 1 << endl;
+        }
+        else if ( (x!=0) && (abs(y / x) > 0)) {
+            cout << abs(y / x) << endl;
+        }
+        else {
+            cout << "-1" << endl;
+        }
 
     }
 

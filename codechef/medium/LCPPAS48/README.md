@@ -13,11 +13,11 @@ Input
 Output
 
 ```
-CodeChef
+5 5
 ```
 
 ```
-f
+1
 ```
 
 ## Solution
@@ -25,16 +25,16 @@ f
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T07:03:55.244Z  
+**Submitted:** 2026-08-05T07:04:37.920Z  
 
 ```c_cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-    string name;
-    cin >> name;
-    cout << name[7] << endl;
+    int one,two;
+    cin >> one >> two;
+    cout << one/two << endl;
     return 0;
 }
 ```

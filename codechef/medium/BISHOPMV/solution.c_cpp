@@ -14,7 +14,7 @@ int main() {
         if (abs(x) == abs(y)) {
             cout << 1 << endl;
         }
-        else if (abs(y / x) > 0 && x!=0) {
+        else if (abs(y / x) > 0) {
             cout << abs(y / x) << endl;
         }
         else {

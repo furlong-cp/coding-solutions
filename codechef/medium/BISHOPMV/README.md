@@ -59,7 +59,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T14:56:34.453Z  
+**Submitted:** 2026-08-05T14:57:12.451Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -78,7 +78,7 @@ int main() {
 	        cout << 1 << endl;
 	    }
 	    else if (m /n > 0){
-	        cout << abs(m/n) << endl;
+	        cout << m%n << endl;
 	    }
 	    else if (m+n == -1){
 	        cout << -1 << endl;

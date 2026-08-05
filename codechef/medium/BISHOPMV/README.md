@@ -59,7 +59,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T15:08:08.784Z  
+**Submitted:** 2026-08-05T15:15:30.247Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -73,16 +73,22 @@ int main() {
     while (t--) {
         int a, b, c, d;
         cin >> a >> b >> c >> d;
-        int x = c - a;
-        int y = d - b;
-        if (abs(x) == abs(y)) {
-            cout << 1 << endl;
+        int count = 0;
+        switch (t==0){
+            case (a+b == c+d) {
+                count +=1;
         }
-        else if ( (x!=0) && (abs(y / x) > 0)) {
-            cout << abs(y / x) << endl;
+            case (a-b == c+d){
+                count +=1;
         }
-        else {
-            cout << "-1" << endl;
+            case (count > 0){
+                cout << count << endl;
+                break;
+        }
+            default {
+                cout << -1 << endl;
+                break;
+        }
         }
 
     }

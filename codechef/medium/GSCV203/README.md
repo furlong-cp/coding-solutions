@@ -4,33 +4,44 @@
 
 ## Problem
 
-_Description not available._
+### How to accept integer inputs
+
+Let us define a variable $N$ that accepts integer inputs.
+Output the same variable $N$.
+To declare an $integer$ variable, we use the $int$ data type.
+
+Code the solution in the IDE and then click  **Submit**  to continue.
+
+### Sample 1:
+Input
+Output
+
+```
+4312
+```
+
+```
+4312
+```
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T15:44:05.380Z  
+**Submitted:** 2026-08-05T15:44:31.478Z  
 
 ```c_cpp
-//Click 'Submit' to view the result
+// Update the blanks in the code below
 #include <bits/stdc++.h>
 
 using namespace std;
 
-int main() {
-  int a = -5; // Integer variable
-  cout << a << endl;
-
-  float b = 4.0; // Float variable
-  cout << b << endl;
-
-  string s = "abcd"; // String variable
-  cout << s << endl;
-
-  int arr[4] = { 7, 8, 9, 10 }; // Integer array
-  cout << arr[2];
+int main()
+{
+    int N;
+    cin >> N;
+    cout<< N;
 }
 ```
 

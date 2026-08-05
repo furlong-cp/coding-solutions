@@ -59,7 +59,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T14:55:09.480Z  
+**Submitted:** 2026-08-05T15:04:39.935Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -70,22 +70,20 @@ int main() {
 	int t; // test cases
 	cin >> t;
 	while(t--){
-	    int x1,y1,x2,y2;
-	    cin >> x1>>y1>>x2>>y2 ;
-	    int m = x1-x2;
-	    int n = y1-y2;
-	    if (abs(n)==abs(m)){
-	        cout << 1 << endl;
+	    int a,b,c,d;
+	    cin >>a>>b>>c>>d;
+	    int x = c-a;
+	    int y = d-b;
+	    if (abs(x)==abs(y)){
+	        cout << 1 << endl ;
 	    }
-	    else if (m %n == 0){
-	        cout << abs(m/n) << endl;
-	    }
-	    else if (m+n == -1){
-	        cout << -1 << endl;
+	    else if (abs(y/x) > 0){
+	        cout << abs (y/x) << endl;
 	    }
 	    else {
-	        cout << -1 << endl ;
+	        cout << "-1" << endl;
 	    }
+	    
 	}
 
 }

@@ -1,10 +1,8 @@
- #include <iostream>
+#include <iostream>
 using namespace std;
 
 int main() {
-	// your code goes here
-	for ( int i = 1 ; i<=5 ; i++){
-	    cout << i << " - " << i*i << endl;
-	    }
-
+    // Write your code here
+    cout << 8+4 << endl << 8-4 << endl << 8/4 << endl << 8*4;
+    
 }

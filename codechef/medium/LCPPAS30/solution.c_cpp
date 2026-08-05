@@ -1,10 +1,12 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
-    // Your code here
-    int a = 20 , b=6;
-    cout << a/b;
+    
+    // Declare and initialize temperature variable with 25.5
+    double t = 25.5;
+    cout << "Celsius - " << t << endl;  // Print the temperature in Celsius 
+    cout << "Kelvin - " << t + 273; // Print the temperature in Kelvin 
 
     return 0;
 }

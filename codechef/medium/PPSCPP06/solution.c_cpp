@@ -2,9 +2,10 @@
 using namespace std;
 
 int main() {
-    cout << 7 << 3;
 
+  cout << 7;
+  cout << "\n" ;
+  cout << 3;
 
-  
   return 0;
 }

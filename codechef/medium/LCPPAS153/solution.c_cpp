@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-    // Write your code here
-    int h = 5;
-    cout << 5*60 << endl << 5*60*60 ;
+	// your code goes here
+	int speed1 = 36 ;
+	cout << (speed1*5)/18;
 
 }

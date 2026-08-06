@@ -63,7 +63,7 @@ Output 3: 1 23 456 789 101112
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-04T10:08:37.339Z  
+**Submitted:** 2026-08-06T13:19:55.492Z  
 
 ```c_cpp
 // Update the '_' below to solve the problem
@@ -87,7 +87,7 @@ int main()
         //accept 2 integers on the 1st line of each test case
         cin>> A >> B;
         //accept 3 integers on the 1st line of each test case
-        cin>> C >> D >> E;
+        cin >> C >> D >> E;
         //output the 5 integers on a single line for each test case 
         cout<< A << " " << B << " " << C << " " << D << " " << E << endl;
     }

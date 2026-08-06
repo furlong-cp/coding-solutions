@@ -39,7 +39,7 @@ Q1W2E3
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-04T10:09:10.231Z  
+**Submitted:** 2026-08-06T13:20:37.673Z  
 
 ```c_cpp
 // Write out the syntax in the blanks below

@@ -49,7 +49,7 @@ Negative
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-07T13:35:40.080Z  
+**Submitted:** 2026-08-07T13:36:10.282Z  
 
 ```c_cpp
 #include <iostream>
@@ -57,6 +57,7 @@ using namespace std;
 
 int main() {
     int n;
+    cin >> n;
     if (n>0) {
         cout << "Positive " ;
     }

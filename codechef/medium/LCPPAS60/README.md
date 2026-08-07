@@ -49,7 +49,7 @@ F
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-07T13:40:33.697Z  
+**Submitted:** 2026-08-07T13:41:42.642Z  
 
 ```c_cpp
  #include <iostream>
@@ -59,10 +59,22 @@ int main() {
 	// your code goes here
 	int g;
 	cin >> g;
-	if (g > 90) {cout << "A" ;}
-    else if (g > 70) {cout << "B" ;}
-    else if (g>40){cout << "C";}
-    else {cout << "F";} 
+	if (g > 90) {
+	    cout << "A" ;
+	    
+	}
+    else if (g > 70) {
+        cout << "B" ;
+        
+    }
+    else if (g>=40){
+        cout << "C";
+        
+    }
+    else {
+        cout << "F";
+        
+    } 
     
     
 }

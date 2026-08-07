@@ -49,7 +49,7 @@ Negative
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-07T13:35:33.951Z  
+**Submitted:** 2026-08-07T13:35:40.080Z  
 
 ```c_cpp
 #include <iostream>

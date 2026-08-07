@@ -2,19 +2,18 @@
 using namespace std;
 
 int main() {
-	// your code goes here
-	string a,b;
-	int x,y;
-	cin >> a >> b;
-	cin >> x >> y;
-	if (x>y){
-	    cout << a ;
-	}
-	else if (y>x){
-	    cout << b;
-	}
-	else {
-	    cout << "equal";
-	}
+    // update your code here
+    int l,m,n;
+    cin >> l >> m >> n ;
+    if (l==m && m==n && n==l){
+        cout << "Equilateral";
+    }
+    else if (l!=m && m!=n && n!=l){
+        cout << "Scalene" ;
+    }
+    else {
+        cout << "Isosceles";
+    }
 
+    return 0;
 }

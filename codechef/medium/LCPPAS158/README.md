@@ -25,7 +25,7 @@ Leap year
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-07T15:38:41.464Z  
+**Submitted:** 2026-08-07T15:40:13.104Z  
 
 ```c_cpp
 #include <iostream>
@@ -35,7 +35,7 @@ int main() {
 	// your code goes here
 	int t;
 	cin >> t;
-	if ((t % 400 ==0 || t % 4 == 0) && t % 10 !=0){
+	if ((t % 400 ==0 || t % 4 == 0) && t % 100 !=0){
 	    cout << "Leap year";
 	}
 	else {

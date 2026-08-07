@@ -25,25 +25,26 @@ Leap year
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-07T15:40:13.104Z  
+**Submitted:** 2026-08-07T15:41:21.027Z  
 
 ```c_cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-	// your code goes here
-	int t;
-	cin >> t;
-	if ((t % 400 ==0 || t % 4 == 0) && t % 100 !=0){
-	    cout << "Leap year";
-	}
-	else {
-	    cout << "Not a leap year";
-	}
+    int t;
+    cin >> t;
+    
+    // Correct logic using parentheses and proper logical operators
+    if ((t % 400 == 0) || (t % 4 == 0 && t % 100 != 0)) {
+        cout << "Leap year\n";
+    }
+    else {
+        cout << "Not a leap year\n";
+    }
 
+    return 0;
 }
-
 ```
 
 ---

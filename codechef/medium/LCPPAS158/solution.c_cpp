@@ -5,7 +5,7 @@ int main() {
 	// your code goes here
 	int t;
 	cin >> t;
-	if ((t % 400 ==0 || t % 4 == 0) && t % 10 !=0){
+	if ((t % 400 ==0 || t % 4 == 0) && t % 100 !=0){
 	    cout << "Leap year";
 	}
 	else {

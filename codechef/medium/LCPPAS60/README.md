@@ -49,7 +49,7 @@ F
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-07T13:41:42.642Z  
+**Submitted:** 2026-08-07T13:41:02.089Z  
 
 ```c_cpp
  #include <iostream>
@@ -67,7 +67,7 @@ int main() {
         cout << "B" ;
         
     }
-    else if (g>=40){
+    else if (g>40){
         cout << "C";
         
     }

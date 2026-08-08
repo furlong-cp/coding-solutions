@@ -1,0 +1,18 @@
+// debug the given code
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cin >> a >> b >> c;
+    
+    // Fix wrong condition and missing extra '='
+    if ((b > a+c) && b % 2 != 0 ){
+        cout << 1;
+    }
+    else {
+        cout << 0;
+    }
+
+    return 0;
+}

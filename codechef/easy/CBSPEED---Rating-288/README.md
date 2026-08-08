@@ -96,7 +96,7 @@ Chef's current brain speed of $8$ bps is not greater than the threshold of $53$ 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-08T10:11:53.875Z  
+**Submitted:** 2026-08-08T10:12:29.417Z  
 
 ```c_cpp
 #include <iostream>
@@ -106,7 +106,7 @@ int main() {
     int x,y;
     cin>>x>>y;
 	// your code goes here
-	if (y>=x){
+	if (y>x){
 	    cout << "YES" ;
 	}
 	else {

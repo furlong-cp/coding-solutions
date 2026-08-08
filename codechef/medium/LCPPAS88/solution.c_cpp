@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int n;
+  n = 8;
+  string s = "CodeChef";
+  cout << s[n-1] << endl;
+
+  return 0;
+}

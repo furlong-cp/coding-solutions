@@ -23,7 +23,7 @@ Review the code in the IDE to understand the insertion process.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T11:27:33.332Z  
+**Submitted:** 2026-08-09T12:42:45.329Z  
 
 ```c_cpp
 #include <bits/stdc++.h>

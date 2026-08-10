@@ -92,7 +92,7 @@ The maximum lead is $10$, achieved by Player $2$.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-10T14:39:30.413Z  
+**Submitted:** 2026-08-10T14:39:37.598Z  
 
 ```c_cpp
 /*

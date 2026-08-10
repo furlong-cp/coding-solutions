@@ -1,0 +1,33 @@
+/*
+author - furlong
+*/
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+
+    int n; // number of rounds
+    cin >> n;// input
+    int s = 0, t = 0; // both scores initialised to 0
+    int maxlead = 0; // maximum lead
+    int w = 0; // winner (1 or 2)
+
+    while (n--) {
+        int a, b; // scores 
+        cin >> a >> b;
+        s += a;
+        t += b;
+        int curr_lead = abs(s - t); // check for abs
+        if (curr_lead > maxlead) { // compare and change with every round
+            maxlead = curr_lead;
+            if (s > t)
+                w = 1;
+            else
+                w= 2;
+        }
+    }
+    cout << w << " " << maxlead;
+    return 0;
+}

@@ -70,7 +70,7 @@ Therefore, the answer is $2$
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-10T14:56:27.435Z  
+**Submitted:** 2026-08-10T14:55:19.397Z  
 
 ```c_cpp
 /*
@@ -82,17 +82,24 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
-    int n, k; // n = main string length & k = substring length
-    cin >> n >> k;
-    string s; // main string
-    cin >> s;
-    int count = 0; // count of W to B
-    for (int i = 0; i < k; i++) {
-        if (s[i]!= 'B') {
+    
+    int n , k ; // n = main string length & k = substring length 
+    cin >> n >> k ;
+    string s; // main string 
+    cin >> s ; 
+    vector <char> v ;
+    for (int i = 0 ; i < s.size() ; i++){
+        v.push_back(s[i]);
+    }
+    int count = 0 ;
+    for (int i = 0 ; i < k ; i++){
+        if (v[i]!= 'B') {
             count++;
         }
     }
-    cout << count;
+    cout << count ;
+    
+
     return 0;
 }
 ```

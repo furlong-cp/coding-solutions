@@ -79,7 +79,7 @@ $$ 1 \times 1=1 $$
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-10T15:00:58.572Z  
+**Submitted:** 2026-08-10T15:01:12.562Z  
 
 ```c_cpp
 #include <bits/stdc++.h>

@@ -70,7 +70,7 @@ Therefore, the answer is $2$
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-10T14:55:19.397Z  
+**Submitted:** 2026-08-10T14:59:51.259Z  
 
 ```c_cpp
 /*
@@ -82,24 +82,22 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
-    
-    int n , k ; // n = main string length & k = substring length 
-    cin >> n >> k ;
-    string s; // main string 
-    cin >> s ; 
-    vector <char> v ;
-    for (int i = 0 ; i < s.size() ; i++){
-        v.push_back(s[i]);
-    }
-    int count = 0 ;
-    for (int i = 0 ; i < k ; i++){
-        if (v[i]!= 'B') {
-            count++;
-        }
-    }
-    cout << count ;
-    
 
+    int n, k; // main string length and substr length
+    cin >> n >> k;
+    string s; // man string input
+    cin >> s;
+    int ans = INT_MAX; // assume max
+    for (int i = 0; i <= n - k; i++) {
+        int count = 0; // w to B count 
+        for (int j = i; j < i + k; j++) {
+            if (s[j] != 'B') { // check each for W
+                count++;
+            }
+        }
+        ans = min(ans, count); // find min , if not then max is ans
+    }
+    cout << ans << '\n';
     return 0;
 }
 ```

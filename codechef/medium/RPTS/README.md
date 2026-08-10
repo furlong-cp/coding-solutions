@@ -70,17 +70,38 @@ Therefore, the answer is $2$
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-10T14:40:37.820Z  
+**Submitted:** 2026-08-10T14:55:03.112Z  
 
 ```c_cpp
+/*
+author - furlong
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    
+    int n , k ; // n = main string length & k = substring length 
+    cin >> n >> k ;
+    string s; // main string 
+    cin >> s ; 
+    vector <char> v ;
+    for (int i = 0 ; i < s.size() ; i++){
+        v.push_back(s[i]);
+    }
+    int count = 0 ;
+    for (int i = 0 ; i < k ; i++){
+        if (v[i]!= 'B') {
+            count++;
+        }
+    }
+    cout << count ;
+    
 
+    return 0;
 }
-
 ```
 
 ---

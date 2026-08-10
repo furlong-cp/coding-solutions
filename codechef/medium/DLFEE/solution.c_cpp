@@ -1,0 +1,26 @@
+/*
+author - furlong
+*/
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    // food price = A
+    // delivery = B
+    // If A=K then B=0
+    int a , b , k ;
+    cin >> a >> b >> k ;
+    int cost = 0 ;
+    if (a >= k) {
+        cost = a; // no delivery cost
+    }
+    else {
+        cost = a+b; // with delivery
+    }
+    cout << cost ;
+    
+
+    return 0;
+}

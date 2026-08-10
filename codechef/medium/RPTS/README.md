@@ -70,7 +70,7 @@ Therefore, the answer is $2$
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-10T14:59:51.259Z  
+**Submitted:** 2026-08-10T15:00:17.441Z  
 
 ```c_cpp
 /*

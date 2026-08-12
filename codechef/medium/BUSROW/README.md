@@ -74,7 +74,7 @@ It's optimal to enter from the back, and walk through rows $6, 5, 4$ to reach it
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-12T15:37:10.272Z  
+**Submitted:** 2026-08-12T15:36:19.024Z  
 
 ```c_cpp
 #include <bits/stdc++.h>

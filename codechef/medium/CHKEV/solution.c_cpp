@@ -1,0 +1,26 @@
+/*
+author - furlong
+*/
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+
+    unsigned int a,b ; // both integers inclusive
+    cin >> a >> b ; // inputs
+    bool found = false;
+    for (int i = a ; i <=b ; i++){
+        if (i % 2 == 0){
+            found = true; 
+            break;
+    }
+}
+if (found) {
+    cout << "Yes" ;
+    } 
+else {
+    cout << "No";
+    }
+}

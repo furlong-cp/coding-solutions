@@ -73,17 +73,35 @@ It can be verified that using fewer than two operations is not enough to make $N
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-12T15:56:29.043Z  
+**Submitted:** 2026-08-12T16:02:33.572Z  
 
 ```c_cpp
+/*
+author - furlong
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
+    ios::sync_with_stdio(0);
+    cin.tie(0);
 
+    unsigned int t; // test cases
+    cin >> t;
+
+    while (t--) {
+        unsigned int n;
+        cin >> n;
+
+        unsigned int op1 = (3 - n % 3) % 3;
+        unsigned int next5 = (n / 5 + 1) * 5;
+        unsigned int op2 = 1 + (3 - next5 % 3) % 3;
+        unsigned int opcount = min(op1, op2);
+        cout << opcount << '\n';
+    }
+
+    return 0;
 }
-
 ```
 
 ---

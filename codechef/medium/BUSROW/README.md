@@ -74,17 +74,34 @@ It's optimal to enter from the back, and walk through rows $6, 5, 4$ to reach it
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-12T15:36:54.018Z  
+**Submitted:** 2026-08-12T15:44:58.466Z  
 
 ```c_cpp
+/*
+author - furlong
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
+    ios::sync_with_stdio(0);
+    cin.tie(0);
 
+    unsigned int t; // test cases
+    cin >> t; // input tc
+
+    while (t--) {
+        unsigned int n, m, x; // n = no of rows // m = seat per rows // x = THE SEAT BRUHH
+        cin >> n >> m >> x;
+        unsigned int rowno = ((x - 1) / m) + 1;
+        unsigned int front = rowno;
+        unsigned int back = n - rowno + 1;
+
+        cout << min(front, back) << '\n';
+    }
+
+    return 0;
 }
-
 ```
 
 ---

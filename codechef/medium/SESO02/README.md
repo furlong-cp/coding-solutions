@@ -31,7 +31,7 @@ List: [4,1,6,8]
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-08T15:22:47.774Z  
+**Submitted:** 2026-09-08T15:22:57.887Z  
 
 ```c_cpp
 #include <bits/stdc++.h>

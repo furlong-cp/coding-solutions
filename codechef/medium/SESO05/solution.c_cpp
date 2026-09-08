@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	string s ; 
+	cin >> s  ;
+	char a; 
+	cin >> a ; 
+	bool found = false ; 
+	int j = 0  ; 
+	for (int i = 0 ; i < s.size() ; i++ ){
+	    if (s[i] == a){
+	        found = true ; 
+	        j = i ; 
+	    }
+	}
+	if (found){
+	    cout << j ;
+	}
+	else {
+	    cout << -1  ;
+	}
+
+}
